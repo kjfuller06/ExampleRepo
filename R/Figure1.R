@@ -11,6 +11,7 @@ tiff(file = paste("Churchill_et_al._2020_Figure1_",sD,"_",eD,".tiff",sep=""), wi
 ymax<-max(FES1$upper,na.rm=T) 
 ymin<-min(FES1$lower,na.rm=T) 
 
+
 # Assign margin areas
 par(cex=0.7, mai=c(0.1,0.1,0.1,0.35))
 
